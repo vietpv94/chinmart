@@ -1,109 +1,252 @@
 <!DOCTYPE html>
 <html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tẩy Giun Zelcom - Siro Hàn Quốc</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-</head>
-<body class="bg-[#FDF6EC] font-sans">
-
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="bg-[#FDF6EC] font-sans">
     <!-- Header -->
     <header class="bg-red-500 text-white py-3 text-center animate-pulse">
-        <p class="text-lg font-semibold">🔥 Ưu đãi đặc biệt - Freeship toàn quốc!</p>
+      <p class="text-lg font-semibold">
+        🔥 Ưu đãi đặc biệt - Freeship toàn quốc!
+      </p>
     </header>
 
     <!-- Hero Section -->
     <section class="text-center py-12">
-        <h1 class="text-4xl font-bold text-red-600 animate-fade-in">TẨY GIUN ZELCOM - SỐ 1 HÀN QUỐC 🇰🇷</h1>
-        <p class="text-lg text-gray-700 mt-3"><i class="fas fa-check-circle text-green-500"></i> Siro tẩy giun dễ uống - Hiệu quả vượt trội!</p>
-        <div class="flex justify-center mt-6">
-            <img src="image.png" alt="Tẩy Giun Zelcom" class="w-3/4 rounded-lg shadow-lg transform hover:scale-105 transition">
-        </div>
-        <button class="mt-6 bg-red-500 text-white px-8 py-3 rounded-lg text-lg font-semibold shadow-md hover:bg-red-600 transition hover:scale-105">
-            🚀 ĐẶT HÀNG NGAY
-        </button>
+      <h1 class="text-4xl font-bold text-red-600 animate-fade-in">
+        TẨY GIUN ZELCOM - SỐ 1 HÀN QUỐC 🇰🇷
+      </h1>
+      <p class="text-lg text-gray-700 mt-3">
+        <i class="fas fa-check-circle text-green-500"></i> Siro tẩy giun vị trái
+        cây, dễ uống, an toàn cho bé!
+      </p>
+      <div class="flex justify-center mt-6">
+        <img
+          src="z6430041100581_7a951f337bea5caf02afe0670a3940ab.jpg"
+          alt="Tẩy Giun Zelcom"
+          class="w-3/4 rounded-lg shadow-lg transform hover:scale-105 transition"
+        />
+      </div>
+      <button
+        onclick="openModal()"
+        class="mt-6 bg-red-500 text-white px-8 py-3 rounded-lg text-lg font-semibold shadow-md hover:bg-red-600 transition hover:scale-105"
+      >
+        🚀 ĐẶT HÀNG NGAY
+      </button>
     </section>
 
     <!-- Dấu hiệu trẻ bị nhiễm giun -->
     <section class="py-10 bg-[#FFF7E6] text-center">
-        <h2 class="text-2xl font-bold text-gray-800">❌ Dấu hiệu trẻ bị nhiễm giun</h2>
-        <div class="mt-6 grid md:grid-cols-2 gap-6 px-6">
-            <div class="p-4 bg-white rounded-lg shadow-md">
-                <h3 class="text-xl font-semibold text-red-600"><i class="fas fa-exclamation-triangle text-yellow-500"></i> Bụng chướng to, đầy hơi</h3>
-            </div>
-            <div class="p-4 bg-white rounded-lg shadow-md">
-                <h3 class="text-xl font-semibold text-red-600"><i class="fas fa-utensils text-orange-500"></i> Ăn nhiều nhưng không lớn, đau bụng vặt</h3>
-            </div>
-            <div class="p-4 bg-white rounded-lg shadow-md">
-                <h3 class="text-xl font-semibold text-red-600"><i class="fas fa-hand-holding text-blue-500"></i> Bé hay ngậm tay, vệ sinh kém</h3>
-            </div>
-            <div class="p-4 bg-white rounded-lg shadow-md">
-                <h3 class="text-xl font-semibold text-red-600"><i class="fas fa-moon text-purple-500"></i> Ngứa hậu môn vào buổi sáng</h3>
-            </div>
+      <h2 class="text-2xl font-bold text-gray-800">
+        ❌ Dấu hiệu trẻ bị nhiễm giun
+      </h2>
+      <div class="mt-6 grid md:grid-cols-2 gap-6 px-6">
+        <div class="p-4 bg-white rounded-lg shadow-md transform hover:scale-105 transition">
+          <h3 class="text-xl font-semibold text-red-600">
+            <i class="fas fa-exclamation-triangle text-yellow-500"></i> Bụng
+            chướng to, đầy hơi
+          </h3>
         </div>
+        <div class="p-4 bg-white rounded-lg shadow-md transform hover:scale-105 transition">
+          <h3 class="text-xl font-semibold text-red-600">
+            <i class="fas fa-utensils text-orange-500"></i> Ăn nhiều nhưng không
+            lớn, đau bụng vặt
+          </h3>
+        </div>
+        <div class="p-4 bg-white rounded-lg shadow-md transform hover:scale-105 transition">
+          <h3 class="text-xl font-semibold text-red-600">
+            <i class="fas fa-hand-holding text-blue-500"></i> Bé hay ngậm tay,
+            vệ sinh kém
+          </h3>
+        </div>
+        <div class="p-4 bg-white rounded-lg shadow-md transform hover:scale-105 transition">
+          <h3 class="text-xl font-semibold text-red-600">
+            <i class="fas fa-moon text-purple-500"></i> Ngứa hậu môn vào buổi
+            sáng
+          </h3>
+        </div>
+      </div>
     </section>
 
-    <!-- Công dụng sản phẩm -->
-    <section class="py-10 text-center">
-        <h2 class="text-2xl font-bold text-gray-800">🎯 Công dụng của Zelcom</h2>
-        <div class="mt-6 grid md:grid-cols-3 gap-6 px-6">
-            <div class="p-4 bg-white rounded-lg shadow-md">
-                <h3 class="text-xl font-semibold text-green-600"><i class="fas fa-shield-virus text-green-500"></i> Loại trừ giun nguy hiểm</h3>
-                <p>Giun móc, giun tóc, giun kim, giun đũa</p>
-            </div>
-            <div class="p-4 bg-white rounded-lg shadow-md">
-                <h3 class="text-xl font-semibold text-blue-600"><i class="fas fa-ban text-blue-500"></i> Ngăn chặn sinh trưởng của giun</h3>
-            </div>
-            <div class="p-4 bg-white rounded-lg shadow-md">
-                <h3 class="text-xl font-semibold text-red-600"><i class="fas fa-check-double text-red-500"></i> Đào thải giun tự nhiên</h3>
-            </div>
+    <!-- Lợi ích sản phẩm -->
+    <section class="py-10 text-center bg-[#FFF7E6]">
+      <h2 class="text-2xl font-bold text-gray-800">
+        💡 Tại sao mẹ nên chọn Zelcom?
+      </h2>
+      <div class="mt-6 grid md:grid-cols-3 gap-6 px-6">
+        <div
+          class="p-4 bg-white rounded-lg shadow-md transform hover:scale-105 transition"
+        >
+          <h3 class="font-semibold text-xl text-red-600">
+            <i class="fas fa-baby text-blue-500"></i> Dạng siro dễ uống
+          </h3>
+          <p>Hương trái cây thơm ngon, bé không sợ thuốc</p>
         </div>
+        <div
+          class="p-4 bg-white rounded-lg shadow-md transform hover:scale-105 transition"
+        >
+          <h3 class="font-semibold text-xl text-red-600">
+            <i class="fas fa-virus-slash text-green-500"></i> Loại bỏ giun tận
+            gốc
+          </h3>
+          <p>Giun đũa, giun móc, giun tóc, giun kim</p>
+        </div>
+        <div
+          class="p-4 bg-white rounded-lg shadow-md transform hover:scale-105 transition"
+        >
+          <h3 class="font-semibold text-xl text-red-600">
+            <i class="fas fa-users text-orange-500"></i> Dùng cho cả gia đình
+          </h3>
+          <p>Trẻ từ 2 tuổi & người lớn đều có thể sử dụng</p>
+        </div>
+      </div>
     </section>
 
     <!-- Hướng dẫn sử dụng -->
     <section class="py-10 bg-[#FFF7E6] text-center">
-        <h2 class="text-2xl font-bold text-gray-800">📢 Hướng dẫn sử dụng</h2>
-        <div class="mt-6 grid md:grid-cols-2 gap-6 px-6">
-            <div class="p-4 bg-white rounded-lg shadow-md">
-                <h3 class="text-xl font-semibold text-red-600"><i class="fas fa-baby text-blue-500"></i> Trẻ từ 2 tuổi trở lên</h3>
-                <p>Uống 1 gói/lần, 6 tháng tẩy giun 1 lần</p>
-            </div>
-            <div class="p-4 bg-white rounded-lg shadow-md">
-                <h3 class="text-xl font-semibold text-red-600"><i class="fas fa-user-check text-green-500"></i> Người lớn</h3>
-                <p>Liều lượng tương tự, có thể dùng định kỳ</p>
-            </div>
+      <h2 class="text-2xl font-bold text-gray-800">📢 Hướng dẫn sử dụng</h2>
+      <div class="mt-6 grid md:grid-cols-2 gap-6 px-6">
+        <div class="p-4 bg-white rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold text-red-600">
+            <i class="fas fa-baby text-blue-500"></i> Trẻ từ 2 tuổi trở lên
+          </h3>
+          <p>Uống 1 gói/lần, 6 tháng tẩy giun 1 lần</p>
         </div>
+        <div class="p-4 bg-white rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold text-red-600">
+            <i class="fas fa-user-check text-green-500"></i> Người lớn
+          </h3>
+          <p>Liều lượng tương tự, có thể dùng định kỳ</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hình ảnh sản phẩm -->
+    <section class="py-12 text-center">
+      <h2 class="text-2xl font-bold text-gray-800">
+        📦 Bao bì & Hình ảnh sản phẩm
+      </h2>
+      <div class="mt-6 grid md:grid-cols-2 gap-6 px-6">
+        <img
+          src="z6428525723058_2545b1435dda776c51cf468088be0a5c.jpg"
+          alt="Hộp tẩy giun Zelcom"
+          class="w-full rounded-lg shadow-md transform hover:scale-105 transition"
+        />
+        <img
+          src="z6428525817015_93d9d560a639c3d4177968c7c2fddaa4.jpg"
+          alt="Siro Zelcom dễ uống"
+          class="w-full rounded-lg shadow-md transform hover:scale-105 transition"
+        />
+      </div>
     </section>
 
     <!-- Giá & Khuyến mãi -->
-    <section class="py-10 text-center">
-        <h2 class="text-2xl font-bold text-gray-800">🔥 Giá & Ưu đãi hôm nay</h2>
-        <div class="mt-6 grid md:grid-cols-3 gap-6 px-6">
-            <div class="p-6 bg-white rounded-lg shadow-md">
-                <h3 class="text-xl font-semibold text-red-600">🎯 Bán Lẻ</h3>
-                <p class="text-2xl font-bold text-red-500">109K</p>
-                <p>Freeship toàn quốc</p>
-            </div>
-            <div class="p-6 bg-white rounded-lg shadow-md">
-                <h3 class="text-xl font-semibold text-red-600">🎁 Combo 2 Hộp</h3>
-                <p class="text-2xl font-bold text-red-500">189K</p>
-            </div>
-            <div class="p-6 bg-white rounded-lg shadow-md">
-                <h3 class="text-xl font-semibold text-red-600">🔥 Combo 3 Hộp</h3>
-                <p class="text-2xl font-bold text-red-500">265K</p>
-                <p>Tặng 1 gói lẻ + Freeship</p>
-            </div>
+    <section class="py-10 bg-[#FFF7E6] text-center">
+      <h2 class="text-2xl font-bold text-gray-800">🔥 Giá & Ưu đãi hôm nay</h2>
+      <div class="mt-6 grid md:grid-cols-3 gap-6 px-6">
+        <div
+          class="p-6 bg-white rounded-lg shadow-md transform hover:scale-105 transition"
+        >
+          <h3 class="text-xl font-semibold text-red-600">🎯 Bán Lẻ</h3>
+          <p class="text-2xl font-bold text-red-500">109K</p>
+          <p>Freeship toàn quốc</p>
+          <button class="mt-4 bg-red-500 text-white px-4 py-2 rounded-lg">
+            Mua Ngay
+          </button>
         </div>
+        <div
+          class="p-6 bg-white rounded-lg shadow-md transform hover:scale-105 transition"
+        >
+          <h3 class="text-xl font-semibold text-red-600">🎁 Combo 2 Hộp</h3>
+          <p class="text-2xl font-bold text-red-500">189K</p>
+          <p>Freeship toàn quốc</p>
+          <button class="mt-4 bg-red-500 text-white px-4 py-2 rounded-lg">
+            Mua Ngay
+          </button>
+        </div>
+        <div
+          class="p-6 bg-white rounded-lg shadow-md transform hover:scale-105 transition"
+        >
+          <h3 class="text-xl font-semibold text-red-600">🔥 Combo 3 Hộp</h3>
+          <p class="text-2xl font-bold text-red-500">265K</p>
+          <p>Tặng 1 gói lẻ + Freeship</p>
+          <button class="mt-4 bg-red-500 text-white px-4 py-2 rounded-lg">
+            Mua Ngay
+          </button>
+        </div>
+      </div>
     </section>
 
-    <!-- CTA Fixed Button -->
-    <div class="fixed bottom-4 left-0 right-0 text-center">
-        <a href="#" class="bg-red-500 text-white px-6 py-3 rounded-full text-lg font-bold shadow-md hover:scale-105 transition">
+    <!-- Đánh giá từ khách hàng -->
+    <section class="py-10 text-center">
+      <h2 class="text-2xl font-bold text-gray-800">📢 Khách hàng nói gì?</h2>
+      <div class="mt-6 grid md:grid-cols-2 gap-6 px-6">
+        <div
+          class="p-4 bg-white rounded-lg shadow-md transform hover:scale-105 transition"
+        >
+          <p>"Bé nhà mình dùng xong ăn uống ngon hơn hẳn, rất dễ uống!"</p>
+          <h4 class="font-semibold mt-2">- Chị Lan, Hà Nội</h4>
+        </div>
+        <div
+          class="p-4 bg-white rounded-lg shadow-md transform hover:scale-105 transition"
+        >
+          <p>"Siro ngọt, bé rất thích, không lo cảnh ép uống thuốc nữa!"</p>
+          <h4 class="font-semibold mt-2">- Anh Hoàng, TP.HCM</h4>
+        </div>
+      </div>
+    </section>
+
+     <!-- Sticky Order Button -->
+     <div class="fixed bottom-4 left-0 right-0 text-center">
+        <button onclick="openModal()" class="bg-red-500 text-white px-6 py-3 rounded-full text-lg font-bold shadow-md hover:scale-105 transition">
             📩 Đặt Hàng Ngay
-        </a>
+        </button>
     </div>
 
-</body>
+      <!-- Modal Đặt Hàng -->
+      <div id="orderModal" class="fixed inset-0 bg-black bg-opacity-50 hidden flex items-center justify-center">
+        <div class="bg-white p-6 rounded-lg shadow-lg max-w-md w-full">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">🛒 Chọn Gói Sản Phẩm</h2>
+            
+            <label class="block mb-2 font-semibold">📦 Chọn Combo:</label>
+            <select id="combo" class="w-full p-2 border rounded-md">
+                <option value="109K">🎯 1 Hộp - 109K (Freeship)</option>
+                <option value="189K">🎁 Combo 2 Hộp - 189K (Freeship)</option>
+                <option value="265K">🔥 Combo 3 Hộp - 265K (Tặng 1 gói lẻ + Freeship)</option>
+            </select>
+
+            <label class="block mt-4 mb-2 font-semibold">🔢 Số lượng:</label>
+            <input type="number" id="quantity" class="w-full p-2 border rounded-md" min="1" value="1">
+
+            <div class="flex justify-between mt-6">
+                <button onclick="closeModal()" class="bg-gray-500 text-white px-4 py-2 rounded-md hover:bg-gray-600 transition">Hủy</button>
+                <button onclick="confirmOrder()" class="bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600 transition">Xác nhận đặt hàng</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openModal() {
+            document.getElementById("orderModal").classList.remove("hidden");
+        }
+        
+        function closeModal() {
+            document.getElementById("orderModal").classList.add("hidden");
+        }
+
+        function confirmOrder() {
+            let combo = document.getElementById("combo").value;
+            let quantity = document.getElementById("quantity").value;
+            alert(`✅ Bạn đã đặt: ${quantity} ${combo}`);
+            closeModal();
+        }
+    </script>
+  </body>
 </html>
